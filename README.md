@@ -7,8 +7,8 @@ Create a responsive webpage for a fictional restaurant using Bootstrap and its g
 
 Requirements:
 
-Header Section:
-Include a navigation bar with the restaurant's name on the left and navigation links (Home, Menu, About Us, Contact) on the right.
+#### 1. Header Section:
+- Include a navigation bar with the restaurant's name on the left and navigation links (Home, Menu, About Us, Contact) on the right.
 Hero Section:
 Add a hero section with an image background showcasing a delicious dish.
 Place a heading and a button in the center of the hero section.

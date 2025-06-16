@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glory Restaurant | Experience Tasty Meals</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">Glory Restaurant</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1 class="display-3 fw-bold mb-4">Welcome to Glory Restaurant</h1>
+            <p class="lead mb-4">Experience culinary excellence in every meal</p>
+            <a href="#menu" class="btn btn-primary btn-lg px-4">View Our Menu</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="bg-light">
+        <div class="container">
+            <h2 class="text-center section-title">Our Menu</h2>
+            <div class="row">
+                <!-- Menu Item 1 -->
+                <div class="col-md-4 menu-item">
+                    <div class="card h-100">
+                        <img src="/glorestaurant/afang.jpg" class="card-img-top menu-img" alt="Afang Soup">
+                        <div class="card-body">
+                            <h5 class="card-title">Afang Soup</h5>
+                            <p class="card-text">Juicy 12oz prime rib served with roasted vegetables and our signature sauce.</p>
+                            <p class="h5 text-primary">&#8358;10,000.00</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Menu Item 2 -->
+                <div class="col-md-4 menu-item">
+                    <div class="card h-100">
+                        <img src="/glorestaurant/Egusi.jpeg" 
+                        class="card-img-top menu-img" alt="Aromatic Rice">
+                        <div class="card-body">
+                            <h5 class="card-title">Egusi Soup</h5>
+                            <p class="card-text">Homemade Egusi Soup to be eaten with Pounded Yam</p>
+                            <p class="h5 text-primary">&#8358;15,000.00</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Menu Item 3 -->
+                <div class="col-md-4 menu-item">
+                    <div class="card h-100">
+                        <img src="/glorestaurant/vegetable.jpg" class="card-img-top menu-img" alt="Vegetable Soup">
+                        <div class="card-body">
+                            <h5 class="card-title">Vegetable Soup to be eaten with Pounded Yam</h5>
+                            <p class="card-text">Fresh Vegetable Soup.</p>
+                            <p class="h5 text-primary">&#8358;9,000.75</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="text-center section-title">About Us</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="/glorestaurant/womaninkitchen.jpg" alt="Restaurant Interior" class="about-img">
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Our Story</h3>
+                    <p>Founded in 2025, Glory Restaurant serves exceptional cuisine in a warm and inviting atmosphere. Our chef, with a wealth  of experience in Five-starred restaurants across Nigeria, Africa, brings world-class culinary expertise to every dish.</p>
+                    <p>We source only the freshest ingredients from local farmers and suppliers, ensuring that every meal is not only delicious but also supports our community. Our menu changes seasonally to reflect the best produce available.</p>
+                    <p>At Glory Restaurant, we believe that dining should be an experience - from the carefully crafted ambiance to the attentive service and, of course, the exquisite food.</p>
+                    <a href="#contact" class="btn btn-outline-primary mt-3">Reserve a Table</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-light">
+        <div class="container">
+            <h2 class="text-center section-title">Contact Us</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary px-4 py-2">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2025 Glory Restaurant. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
