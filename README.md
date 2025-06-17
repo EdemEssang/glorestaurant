@@ -24,7 +24,9 @@ Include fields for name, email, message, and a submit button.
 #### 4. Footer:
 -  Design a simple footer with copyright information and social media icons.
 
-The link to the  Glory Restaurant
+[This is a link to  screen shot of the  to the  Glory Restaurant]( https://github.com/EdemEssang/glorestaurant/blob/main/FireShot%20Capture%20001%20-%20Glory%20Restaurant%20-%20Experience%20Tasty%20Meals.pngs
+)
+
 
 # Bootstrap Components Checkpoint
 
@@ -34,10 +36,10 @@ Create a landing page for a travel agency using Bootstrap components.
 
 Requirements:
 
-Navbar:
+#### 1. Navbar:
 Include a navigation bar with the agency's name/logo on the left.
 Add navigation links (Home, Destinations, Tours, Contact) on the right.
-Hero Section:
+#### 2. Hero Section:
 Design a hero section with a background image showcasing a scenic travel destination.
 Place a heading, a subheading, and a prominent call-to-action button in the center.
 Destinations Section:
@@ -46,14 +48,14 @@ Utilize Bootstrap cards for each destination, including an image, title, descrip
 Tours Section:
 Use Bootstrap's accordion component to showcase different tour packages.
 Each accordion item should have a title, a brief description, and a "View Details" link.
-Contact Form:
+#### 3. Contact Form:
 Design a contact form section using Bootstrap's form components.
 Include fields for name, email, destination of interest, and a message.
-Footer:
+#### 4. Footer:
 Design a footer with copyright information and social media icons.
 
-Instructions
-Technical Requirements:
+#### Instructions
+##### Technical Requirements:
 
 Utilize Bootstrap's grid system for creating responsive layouts.
 Make sure the webpage is well-designed and user-friendly.
@@ -73,5 +75,5 @@ Additional Guidelines:
 Customize Bootstrap styles to match the travel agency theme.
 Use appropriate classes for responsiveness, such as container, row, col-md-6, etc.
 Enhance the design by incorporating relevant images and content.
-
+[This is a link to  screen shot of the  to the Glide Travel Agency]()
 
