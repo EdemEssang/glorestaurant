@@ -75,5 +75,5 @@ Additional Guidelines:
 Customize Bootstrap styles to match the travel agency theme.
 Use appropriate classes for responsiveness, such as container, row, col-md-6, etc.
 Enhance the design by incorporating relevant images and content.
-[This is a link to  screen shot of the  to the Glide Travel Agency]()
+[This is a link to  screen shot of the  to the Glide Travel Agency](https://github.com/EdemEssang/glorestaurant/blob/main/glidetravelagency/travelagency%20website.png)
 
